@@ -13,8 +13,9 @@
 "Value":"UIPrefabs\\UIMatchWait"},
 
 {"Key":"UIGameLoadIn",
-"Value":"UIPrefabs\\UIGameLoadIn"}
+"Value":"UIPrefabs\\UIGameLoadIn"},
 
-
+{"Key":"UIGameOver",
+"Value":"UIPrefabs\\UIGameOver"}
 ]
 }

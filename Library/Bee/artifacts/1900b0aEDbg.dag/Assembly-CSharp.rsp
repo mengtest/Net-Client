@@ -374,6 +374,7 @@
 "Assets/scripts/UI/UIMaskMgr.cs"
 "Assets/scripts/UI/UIPanels/UIEnterGameLoad.cs"
 "Assets/scripts/UI/UIPanels/UIGameLoadIn.cs"
+"Assets/scripts/UI/UIPanels/UIGameOver.cs"
 "Assets/scripts/UI/UIPanels/UIMatchWait.cs"
 "Assets/scripts/UI/UIType.cs"
 "Assets/scripts/Utils/enums/BattleMode.cs"

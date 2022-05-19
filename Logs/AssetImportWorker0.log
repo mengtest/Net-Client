@@ -835,3 +835,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (24.6 KB). Loaded Objects now: 2069.
+Memory consumption went from 78.4 MB to 78.4 MB.
+Total: 7.076500 ms (FindLiveObjects: 0.447500 ms CreateObjectMapping: 0.252000 ms MarkObjects: 6.304000 ms  DeleteObjects: 0.070300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4204.384462 seconds.
+  path: Assets/Resources/UIFormsConfigInfo.json
+  artifactKey: Guid(524d14c6c7c2c3b4a9c2156c4c5ccaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIFormsConfigInfo.json using Guid(524d14c6c7c2c3b4a9c2156c4c5ccaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c124662a7093fe521c3373b640611e3d') in 0.014968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.242720 seconds.
+  path: Assets/scripts/UI/UIPanels/UIGameLoadIn.cs
+  artifactKey: Guid(708dfee4f816e834e91cbebb8be66cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/UI/UIPanels/UIGameLoadIn.cs using Guid(708dfee4f816e834e91cbebb8be66cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c708cb81917ba6e110679e644c36e55') in 0.001646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.544208 seconds.
+  path: Assets/scripts/UI/UIPanels/UIGameOver.cs
+  artifactKey: Guid(f0593efab010a9046b7f44f9e7848391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/UI/UIPanels/UIGameOver.cs using Guid(f0593efab010a9046b7f44f9e7848391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44ea45cb3f2c0855dc82a3e07f842f9') in 0.001485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.461960 seconds.
+  path: Assets/Resources/UIPrefabs/UIGameOver.prefab
+  artifactKey: Guid(226b986b981698f4d9c1745a29a57c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/UIPrefabs/UIGameOver.prefab using Guid(226b986b981698f4d9c1745a29a57c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fbb5824802c96399ffad436ec88a74') in 0.013335 seconds 

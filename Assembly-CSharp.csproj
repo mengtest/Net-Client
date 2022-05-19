@@ -111,6 +111,7 @@
     <Compile Include="Assets\scripts\NetWork\Service\RoomService.cs" />
     <Compile Include="Assets\scripts\ThirdParty\KCP\KcpOnUdp.cs" />
     <Compile Include="Assets\scripts\UI\UIPanels\UIGameLoadIn.cs" />
+    <Compile Include="Assets\scripts\UI\UIPanels\UIGameOver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\scripts\ThirdParty\Protobuf\Google.ProtocolBuffers.dll" />
