@@ -96,9 +96,9 @@ namespace Assets.scripts.UI
         /// 打开UI窗体
         /// </summary>
         /// <param name="uiFormName"></param>
-        protected void OpenUIForm(string uiFormName)
+        protected BaseUIForm OpenUIForm(string uiFormName)
         {
-            UIManager.GetInstance().ShowUIForms(uiFormName);
+            return UIManager.GetInstance().ShowUIForms(uiFormName);
         }
 
         /// <summary>

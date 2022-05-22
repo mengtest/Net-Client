@@ -1,4 +1,5 @@
 ﻿using Assets.scripts.GameLogic;
+using Assets.scripts.Core.GameLogic;
 using Assets.scripts.GameLogic.Managers;
 using Assets.scripts.Message;
 using Assets.scripts.Models;

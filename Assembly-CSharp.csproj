@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,6 +53,9 @@
     <UnityVersion>2021.2.5f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\scripts\GameLogic\GameLogicGlobal.cs" />
     <Compile Include="Assets\scripts\GameGlobal.cs" />
     <Compile Include="Assets\scripts\ThirdParty\KCP\ByteBuf.cs" />
@@ -75,7 +78,9 @@
     <Compile Include="Assets\scripts\NetWork\Service\TipsService.cs" />
     <Compile Include="Assets\scripts\Utils\enums\BattleMode.cs" />
     <Compile Include="Assets\scripts\Utils\TimerTask.cs" />
+    <Compile Include="Assets\scripts\UI\UIPanels\UIGameOver.cs" />
     <Compile Include="Assets\scripts\Utils\Tools\ConfigManagerByJson.cs" />
+    <Compile Include="Assets\scripts\UI\UIPanels\UIGameLoadIn.cs" />
     <Compile Include="Assets\scripts\Managers\LauguageMgr.cs" />
     <Compile Include="Assets\scripts\UI\SysDefine.cs" />
     <Compile Include="Assets\scripts\GameLogic\Models\Character.cs" />
@@ -100,7 +105,7 @@
     <Compile Include="Assets\scripts\Managers\GameLogicManager.cs" />
     <Compile Include="Assets\scripts\NetWork\Service\GameLogicService.cs" />
     <Compile Include="Assets\scripts\LoadManager.cs" />
-    <Compile Include="Assets\scripts\GameLogic\IGameCoreLogic.cs" />
+    <Compile Include="Assets\scripts\GameLogic\Core\IGameCoreLogic.cs" />
     <Compile Include="Assets\scripts\Utils\Tools\IConfigManager.cs" />
     <Compile Include="Assets\scripts\ThirdParty\KCP\KcpClient.cs" />
     <Compile Include="Assets\scripts\NetWork\Service\ChatService.cs" />
@@ -110,8 +115,7 @@
     <Compile Include="Assets\scripts\Models\User.cs" />
     <Compile Include="Assets\scripts\NetWork\Service\RoomService.cs" />
     <Compile Include="Assets\scripts\ThirdParty\KCP\KcpOnUdp.cs" />
-    <Compile Include="Assets\scripts\UI\UIPanels\UIGameLoadIn.cs" />
-    <Compile Include="Assets\scripts\UI\UIPanels\UIGameOver.cs" />
+    <Compile Include="Assets\scripts\GameLogic\Core\FrameStorage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\scripts\ThirdParty\Protobuf\Google.ProtocolBuffers.dll" />
